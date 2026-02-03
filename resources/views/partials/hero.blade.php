@@ -4,9 +4,9 @@
     <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-accent-purple/30 rounded-full blur-3xl animate-pulse"></div>
     <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
     <div class="relative container mx-auto px-6 text-center z-10 pt-20">
-        <span class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-primary text-sm font-semibold mb-6 tracking-wider backdrop-blur-sm">SEJAK 2023</span>
+        <span class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-primary text-sm font-semibold mb-6 tracking-wider backdrop-blur-sm">SEJAK 2025</span>
         <h1 class="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white leading-tight mb-4">
-            Tingkatkan <br/>
+            Tingkatkan Bisnis Anda<br/>
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-yellow-400 glow-text">Kehadiran Digital</span>
         </h1>
         <p class="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light">

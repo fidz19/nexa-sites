@@ -12,7 +12,7 @@
                     <p class="text-sm text-gray-500 dark:text-gray-400 mt-2 min-h-[40px]">Cocok untuk blog pribadi atau landing page sederhana.</p>
                 </div>
                 <div class="mb-6">
-                    <span class="text-4xl font-bold text-gray-900 dark:text-white">Rp 4.999.000</span>
+                    <span class="text-4xl font-bold text-gray-900 dark:text-white">Rp 500.000</span>
                     <span class="text-sm text-gray-500">/proyek</span>
                 </div>
                 <ul class="space-y-4 mb-8 flex-grow">
@@ -37,7 +37,7 @@
                     <p class="text-sm text-gray-500 dark:text-gray-400 mt-2 min-h-[40px]">Ideal untuk bisnis kecil yang ingin bertumbuh.</p>
                 </div>
                 <div class="mb-6">
-                    <span class="text-4xl font-bold text-gray-900 dark:text-white">Rp 12.999.000</span>
+                    <span class="text-4xl font-bold text-gray-900 dark:text-white">Rp 1.200.000</span>
                     <span class="text-sm text-gray-500">/proyek</span>
                 </div>
                 <ul class="space-y-4 mb-8 flex-grow">
@@ -67,7 +67,7 @@
                     <p class="text-sm text-gray-500 dark:text-gray-400 mt-2 min-h-[40px]">Terbaik untuk perusahaan yang sedang scale up.</p>
                 </div>
                 <div class="mb-6">
-                    <span class="text-4xl font-bold text-gray-900 dark:text-white">Rp 24.999.000</span>
+                    <span class="text-4xl font-bold text-gray-900 dark:text-white">Rp 3.000.000</span>
                     <span class="text-sm text-gray-500">/proyek</span>
                 </div>
                 <ul class="space-y-4 mb-8 flex-grow">
