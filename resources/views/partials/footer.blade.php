@@ -3,38 +3,38 @@
     <div class="container mx-auto px-6">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
             <div>
-                <h3 class="text-primary font-bold uppercase tracking-widest mb-2">What is Nexa Sites?</h3>
-                <h4 class="text-2xl font-display font-bold mb-6 italic">Custom IT Solution Provider</h4>
+                <h3 class="text-primary font-bold uppercase tracking-widest mb-2">Apa itu Nexa Sites?</h3>
+                <h4 class="text-2xl font-display font-bold mb-6 italic">Penyedia Solusi TI Kustom</h4>
                 <p class="text-gray-400 text-sm leading-relaxed mb-6">
-                    Nexa Sites is an Indonesian Company providing IT Solutions. Our services consist of Professional Web Design, AI Cloud CCTV, Web Security, Custom Web Application Developer, Odoo Developer &amp; Implementer, Secure Email Business, Web Maintenance, and other IT Solutions.
+                    Nexa Sites adalah perusahaan Indonesia yang menyediakan solusi TI. Layanan kami mencakup desain website profesional, pengembangan aplikasi web &amp; mobile, AI Cloud CCTV, keamanan web, custom web application, Odoo developer &amp; implementer, secure email business, maintenance website, dan solusi TI lainnya.
                 </p>
                 <p class="text-gray-400 text-sm leading-relaxed">
-                    Managed by passionate people since 2023. We have provided website creation services in Jakarta countless times. High-quality coding is what we do best.
+                    Dikelola oleh tim yang berpengalaman sejak 2023. Kami telah menangani banyak proyek website dan aplikasi di Jakarta. Kualitas kode adalah prioritas utama kami.
                 </p>
             </div>
             <div class="relative flex items-center justify-center">
                 <div class="absolute inset-0 bg-primary/20 blur-3xl rounded-full"></div>
-                <img alt="Laptop coding" class="relative z-10 rounded-xl shadow-2xl border border-white/10 w-full max-w-md transform hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCo_S1rhD42ffuhOt54NF2ufE1n7OlNV_dL84U8kbCdWijUuSDYzOYlKxqma-eMbgSKVehjfKyP_sSKQeYzcfvv0ZPCcpx7UM8QzBYvekZZ812rrNVSdloO0UFC6un9vDQJeHbBRqlU8oBJdpE16wSxWJaNdjH1nHuo73zQSxyNFP3pTm1pxbKVd5LB5pupYKRNb2z6wJqo3Iwb2rqETmx_WmgT1dI8RSg3J7b9_yCNguvagbxHHHhkBzG_5F0cojvLqDTDCo5yF4"/>
+                <img alt="Tim Coding" class="relative z-10 rounded-xl shadow-2xl border border-white/10 w-full max-w-md transform hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCo_S1rhD42ffuhOt54NF2ufE1n7OlNV_dL84U8kbCdWijUuSDYzOYlKxqma-eMbgSKVehjfKyP_sSKQeYzcfvv0ZPCcpx7UM8QzBYvekZZ812rrNVSdloO0UFC6un9vDQJeHbBRqlU8oBJdpE16wSxWJaNdjH1nHuo73zQSxyNFP3pTm1pxbKVd5LB5pupYKRNb2z6wJqo3Iwb2rqETmx_WmgT1dI8RSg3J7b9_yCNguvagbxHHHhkBzG_5F0cojvLqDTDCo5yF4"/>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-gray-800 pt-12">
             <div>
-                <h5 class="text-white font-bold mb-4">Sales &amp; General Info</h5>
+                <h5 class="text-white font-bold mb-4">Sales &amp; Informasi</h5>
                 <ul class="space-y-2 text-sm text-gray-400">
                     <li>Telp: 021-2960-1439</li>
                     <li>WA: 0896-5233-7134 (Novia)</li>
                 </ul>
             </div>
             <div>
-                <h5 class="text-white font-bold mb-4">Support</h5>
+                <h5 class="text-white font-bold mb-4">Dukungan</h5>
                 <ul class="space-y-2 text-sm text-gray-400">
                     <li>0896 3619 2223 (Wahyu)</li>
-                    <li class="mt-4"><span class="text-white font-semibold">Odoo/SEO/Google Ads Consultant</span></li>
+                    <li class="mt-4"><span class="text-white font-semibold">Konsultan Odoo/SEO/Google Ads</span></li>
                     <li>WA: 0856 78 11230</li>
                 </ul>
             </div>
             <div>
-                <h5 class="text-white font-bold mb-4">Address</h5>
+                <h5 class="text-white font-bold mb-4">Alamat</h5>
                 <address class="text-sm text-gray-400 not-italic">
                     PT. Nexa Indonesia<br/>
                     The City Tower<br/>
@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="border-t border-gray-800 mt-12 pt-8 text-center text-xs text-gray-500">
-            © 2024 Nexa Sites | PT. Nexa Indonesia. All Rights Reserved.
+            © 2024 Nexa Sites | PT. Nexa Indonesia. Hak Cipta Dilindungi.
         </div>
     </div>
     <a class="fixed bottom-6 right-6 bg-green-600 hover:bg-green-700 text-white py-3 px-6 rounded-full shadow-lg inline-flex items-center gap-2 z-50 transition-colors" href="#">

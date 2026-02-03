@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Nexa Sites - Digital Solutions')
+@section('title', 'Nexa Sites - Solusi Digital')
 
 @section('content')
     @include('partials.nav')

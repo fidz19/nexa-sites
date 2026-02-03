@@ -3,10 +3,10 @@
     <div class="container mx-auto px-6 relative z-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-                <h3 class="text-primary font-bold tracking-widest uppercase mb-2">Advantages</h3>
-                <h2 class="text-4xl md:text-5xl font-display font-bold mb-6">Key Advantage <br/> Of Our Services</h2>
+                <h3 class="text-primary font-bold tracking-widest uppercase mb-2">Keunggulan</h3>
+                <h2 class="text-4xl md:text-5xl font-display font-bold mb-6">Nilai Utama <br/> Layanan Kami</h2>
                 <p class="text-indigo-200 text-lg mb-8">
-                    We don't just build websites; we build business solutions that are scalable, secure, and performance-oriented.
+                    Kami tidak hanya membangun website, tapi juga aplikasi bisnis yang scalable, aman, dan cepat.
                 </p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="flex gap-4">
@@ -16,8 +16,8 @@
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-xl font-bold font-display mb-2">Custom Strategies</h4>
-                            <p class="text-sm text-indigo-200">Products and IT services fully customized to client needs.</p>
+                            <h4 class="text-xl font-bold font-display mb-2">Strategi Kustom</h4>
+                            <p class="text-sm text-indigo-200">Produk dan layanan TI disesuaikan penuh dengan kebutuhan klien.</p>
                         </div>
                     </div>
                     <div class="flex gap-4">
@@ -27,8 +27,8 @@
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-xl font-bold font-display mb-2">Fast Performance</h4>
-                            <p class="text-sm text-indigo-200">Optimized code and server configurations for lightning speed.</p>
+                            <h4 class="text-xl font-bold font-display mb-2">Performa Cepat</h4>
+                            <p class="text-sm text-indigo-200">Kode dan konfigurasi server dioptimalkan untuk kecepatan maksimal.</p>
                         </div>
                     </div>
                     <div class="flex gap-4">
@@ -38,8 +38,8 @@
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-xl font-bold font-display mb-2">Personalized Support</h4>
-                            <p class="text-sm text-indigo-200">Technical support and maintenance helping solve issues personally.</p>
+                            <h4 class="text-xl font-bold font-display mb-2">Dukungan Personal</h4>
+                            <p class="text-sm text-indigo-200">Support teknis dan maintenance yang membantu menyelesaikan masalah secara langsung.</p>
                         </div>
                     </div>
                     <div class="flex gap-4">
@@ -49,18 +49,18 @@
                             </div>
                         </div>
                         <div>
-                            <h4 class="text-xl font-bold font-display mb-2">Reliable &amp; Secure</h4>
-                            <p class="text-sm text-indigo-200">Tested dedication in providing services to clients since 2023.</p>
+                            <h4 class="text-xl font-bold font-display mb-2">Teruji &amp; Aman</h4>
+                            <p class="text-sm text-indigo-200">Dedikasi teruji dalam melayani klien sejak 2023.</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="hidden lg:block relative">
-                <img alt="Data Analytics" class="rounded-2xl shadow-2xl border-4 border-white/10 transform rotate-2 hover:rotate-0 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCechc-4Pvk8qkhyzLRcqj3xE0dNOd7vAIDoOK38edTnouhiEHbSBS1anPz9RhT2VvCRH7dhkcQYhG4A6Q4BzGJJMdAWPg8ZZqTDmacROxixamDhWUG4DO_Yt89jlNWk9FuE7K9P9W24nVjM53yf2asFnstZ1BoVASEs33GM3JOYHWvavesuaXDJpVG1Qb83dQdxChiHyz3SwnNgyQi7-_RG8dwvwzLgvORCilRy8CmQQ_BbdmBgZppmdFKi1yA58GGUmtra_oSRjw"/>
+                <img alt="Analitik Data" class="rounded-2xl shadow-2xl border-4 border-white/10 transform rotate-2 hover:rotate-0 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCechc-4Pvk8qkhyzLRcqj3xE0dNOd7vAIDoOK38edTnouhiEHbSBS1anPz9RhT2VvCRH7dhkcQYhG4A6Q4BzGJJMdAWPg8ZZqTDmacROxixamDhWUG4DO_Yt89jlNWk9FuE7K9P9W24nVjM53yf2asFnstZ1BoVASEs33GM3JOYHWvavesuaXDJpVG1Qb83dQdxChiHyz3SwnNgyQi7-_RG8dwvwzLgvORCilRy8CmQQ_BbdmBgZppmdFKi1yA58GGUmtra_oSRjw"/>
                 <div class="absolute -bottom-10 -left-10 bg-surface-dark p-6 rounded-xl shadow-xl border border-gray-700">
                     <div class="flex items-center gap-4">
                         <span class="text-4xl font-bold text-primary">98%</span>
-                        <span class="text-sm text-gray-300">Client <br/>Satisfaction</span>
+                        <span class="text-sm text-gray-300">Kepuasan <br/>Klien</span>
                     </div>
                 </div>
             </div>
