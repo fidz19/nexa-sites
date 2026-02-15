@@ -9,7 +9,6 @@
             <a class="text-sm font-medium text-gray-300 hover:text-primary transition-colors" href="#services">LAYANAN</a>
             <a class="text-sm font-medium text-gray-300 hover:text-primary transition-colors" href="#pricing">HARGA</a>
             <a class="text-sm font-medium text-gray-300 hover:text-primary transition-colors" href="#portfolio">PORTOFOLIO</a>
-            <a class="text-sm font-medium text-gray-300 hover:text-primary transition-colors" href="#blog">ARTIKEL</a>
             <a class="bg-primary hover:bg-primary-hover text-white px-6 py-2 rounded-full text-sm font-bold transition-all shadow-lg shadow-orange-500/20" href="#contact">KONTAK</a>
         </div>
         <button class="md:hidden text-white">

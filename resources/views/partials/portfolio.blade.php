@@ -2,30 +2,71 @@
     <div class="container mx-auto px-6 text-center">
         <h3 class="text-accent-purple font-bold tracking-widest uppercase mb-2">Kepercayaan</h3>
         <h2 class="text-4xl font-display font-bold text-gray-900 mb-12">Klien Terpercaya Kami</h2>
-        <div class="flex flex-wrap justify-center items-center gap-12 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
-            <div class="flex items-center gap-2">
-                <div class="w-10 h-10 bg-blue-600 rounded-full"></div>
-                <span class="text-2xl font-bold text-gray-800">Wilmar</span>
+            
+        <div class="mt-16 max-w-5xl mx-auto" data-slider-wrapper>
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="text-xl font-display font-bold text-gray-900">Portofolio Proyek</h3>
+                <div class="flex items-center gap-2">
+                    <button type="button" class="p-2 rounded-full border border-gray-300 text-gray-600 hover:text-primary hover:border-primary transition-colors" data-slider-prev>
+                        <span class="material-icons-round text-lg">chevron_left</span>
+                    </button>
+                    <button type="button" class="p-2 rounded-full border border-gray-300 text-gray-600 hover:text-primary hover:border-primary transition-colors" data-slider-next>
+                        <span class="material-icons-round text-lg">chevron_right</span>
+                    </button>
+                </div>
             </div>
-            <div class="flex items-center gap-2">
-                <div class="w-10 h-10 bg-yellow-500 rounded-full"></div>
-                <span class="text-2xl font-bold text-gray-800">JasaMarga</span>
+            <div class="relative overflow-hidden rounded-2xl border border-gray-200 shadow-2xl bg-white" data-slider>
+                <div class="flex transition-transform duration-500 ease-in-out" data-slider-track style="transform: translateX(0%);">
+                    @foreach ($portfolioProjects as $project)
+                        <div class="w-full shrink-0" data-slide>
+                            @php
+                                $imagePath = data_get($project, 'image_path');
+                                $imageUrl = $imagePath
+                                    ? \Illuminate\Support\Facades\Storage::url($imagePath)
+                                    : data_get($project, 'image_url');
+                            @endphp
+                            @if (data_get($project, 'project_url'))
+                                @php
+                                    $projectUrl = data_get($project, 'project_url');
+                                    $projectHref = str_starts_with((string) $projectUrl, 'http')
+                                        ? $projectUrl
+                                        : 'https://' . $projectUrl;
+                                @endphp
+                                <a href="{{ $projectHref }}" target="_blank" rel="noreferrer">
+                                    <img alt="{{ data_get($project, 'title', 'Portofolio Proyek') }}" class="w-full object-cover" src="{{ $imageUrl }}"/>
+                                </a>
+                            @else
+                                <img alt="{{ data_get($project, 'title', 'Portofolio Proyek') }}" class="w-full object-cover" src="{{ $imageUrl }}"/>
+                            @endif
+                        </div>
+                    @endforeach
+                </div>
             </div>
-            <div class="flex items-center gap-2">
-                <div class="w-10 h-10 bg-red-600 rounded-full"></div>
-                <span class="text-2xl font-bold text-gray-800">Telkom</span>
-            </div>
-            <div class="flex items-center gap-2">
-                <div class="w-10 h-10 bg-green-600 rounded-full"></div>
-                <span class="text-2xl font-bold text-gray-800">Gojek</span>
-            </div>
-            <div class="flex items-center gap-2">
-                <div class="w-10 h-10 bg-purple-600 rounded-full"></div>
-                <span class="text-2xl font-bold text-gray-800">Ovo</span>
-            </div>
+            <p class="text-sm text-gray-500 mt-4">Geser dengan tombol panah untuk melihat proyek lainnya.</p>
         </div>
-        <div class="mt-16">
-            <img alt="Portofolio Dashboard" class="mx-auto rounded-lg shadow-2xl max-w-4xl border border-gray-200" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAagPrP4Tc0fnJhcjlt2PkCKPpgrqkUMUppGwLnKGmOMq47H5QxTbgUVljsQ6o-MHoBUKun9IAkv1JLztHOZr50duwKYoVMVZWEm8c36OmgbxkjVMfKSce00h2fUmIQYzo8Fza18Sovt4jx5KM9pPZoxQAvCI8R323EOcLHmMFlrlKaLo5_iIuCgToFlvOSY7MeWBijcPtXpjZMbB8iN_ySGWgt8TzvasPUBIrkSPu3-LMIUeEILWaOUlhehJj0MNen2Pdsw6vvTsw"/>
-        </div>
+        <script>
+            (function () {
+                const wrapper = document.currentScript?.closest('[data-slider-wrapper]');
+                const slider = wrapper?.querySelector('[data-slider]') || document.querySelector('[data-slider]');
+                if (!slider) return;
+                const track = slider.querySelector('[data-slider-track]');
+                const slides = Array.from(slider.querySelectorAll('[data-slide]'));
+                const prev = wrapper?.querySelector('[data-slider-prev]');
+                const next = wrapper?.querySelector('[data-slider-next]');
+                if (!track || slides.length === 0) return;
+                let index = 0;
+                const update = () => {
+                    track.style.transform = `translateX(-${index * 100}%)`;
+                };
+                prev?.addEventListener('click', () => {
+                    index = (index - 1 + slides.length) % slides.length;
+                    update();
+                });
+                next?.addEventListener('click', () => {
+                    index = (index + 1) % slides.length;
+                    update();
+                });
+            })();
+        </script>
     </div>
 </section>

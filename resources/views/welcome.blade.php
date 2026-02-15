@@ -9,6 +9,5 @@
     @include('partials.advantages')
     @include('partials.pricing')
     @include('partials.portfolio')
-    @include('partials.blog')
     @include('partials.footer')
 @endsection
