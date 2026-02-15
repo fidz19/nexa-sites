@@ -46,25 +46,42 @@
         </div>
         <script>
             (function () {
-                const wrapper = document.currentScript?.closest('[data-slider-wrapper]');
-                const slider = wrapper?.querySelector('[data-slider]') || document.querySelector('[data-slider]');
-                if (!slider) return;
-                const track = slider.querySelector('[data-slider-track]');
-                const slides = Array.from(slider.querySelectorAll('[data-slide]'));
-                const prev = wrapper?.querySelector('[data-slider-prev]');
-                const next = wrapper?.querySelector('[data-slider-next]');
-                if (!track || slides.length === 0) return;
-                let index = 0;
-                const update = () => {
-                    track.style.transform = `translateX(-${index * 100}%)`;
-                };
-                prev?.addEventListener('click', () => {
-                    index = (index - 1 + slides.length) % slides.length;
-                    update();
-                });
-                next?.addEventListener('click', () => {
-                    index = (index + 1) % slides.length;
-                    update();
+                const wrappers = document.querySelectorAll('[data-slider-wrapper]');
+
+                wrappers.forEach((wrapper) => {
+                    const track = wrapper.querySelector('[data-slider-track]');
+                    const slides = Array.from(wrapper.querySelectorAll('[data-slide]'));
+                    const prev = wrapper.querySelector('[data-slider-prev]');
+                    const next = wrapper.querySelector('[data-slider-next]');
+
+                    if (!track || !prev || !next || slides.length === 0) {
+                        return;
+                    }
+
+                    if (slides.length === 1) {
+                        prev.disabled = true;
+                        next.disabled = true;
+                        prev.classList.add('opacity-50', 'cursor-not-allowed');
+                        next.classList.add('opacity-50', 'cursor-not-allowed');
+
+                        return;
+                    }
+
+                    let index = 0;
+
+                    const update = () => {
+                        track.style.transform = `translateX(-${index * 100}%)`;
+                    };
+
+                    prev.addEventListener('click', () => {
+                        index = (index - 1 + slides.length) % slides.length;
+                        update();
+                    });
+
+                    next.addEventListener('click', () => {
+                        index = (index + 1) % slides.length;
+                        update();
+                    });
                 });
             })();
         </script>
