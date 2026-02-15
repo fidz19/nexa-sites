@@ -43,10 +43,13 @@ class PortfolioProjectResource extends Resource
                             ->directory('portfolio')
                             ->image()
                             ->imageEditor()
+                            ->requiredWithout('image_url')
                             ->helperText('Upload gambar atau isi URL gambar di bawah.')
                             ->columnSpanFull(),
                         Forms\Components\TextInput::make('image_url')
                             ->label('URL Gambar (opsional)')
+                            ->requiredWithout('image_path')
+                            ->dehydrateStateUsing(static fn (?string $state): ?string => filled($state) ? $state : null)
                             ->maxLength(500),
                         Forms\Components\TextInput::make('project_url')
                             ->label('URL Proyek')

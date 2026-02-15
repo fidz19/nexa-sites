@@ -7,6 +7,7 @@
     @include('partials.hero')
     @include('partials.services')
     @include('partials.advantages')
+    @include('partials.promo')
     @include('partials.pricing')
     @include('partials.portfolio')
     @include('partials.footer')
